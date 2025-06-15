@@ -1,0 +1,101 @@
+body {
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 900px) {
+    .navbar2 {
+        display: none;
+    }
+}
+
+.bestsellercard {
+    height: fit-content;
+    width: 300px;
+    transition: 200ms ease;
+}
+
+.bestsellercard:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 5px 20px black;
+}
+
+.bestsellercardheartlogo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.enddivfixone {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.important-text {
+    font-style: italic;
+    color: #0056b3;
+}
+
+.section-title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-top: 20px;
+}
+
+.category1 {
+    background-image: url(./Images/wheyprotein.png);
+    background-size: contain;
+}
+
+.category2 {
+    background-image: url(./Images/creatine.png);
+    background-size: contain;
+
+}
+
+.category3 {
+    background-image: url(./Images/fishoil.png);
+    background-size: contain;
+
+}
+
+.categorytext {
+    display: none;
+    margin-top: 40%;
+    color: black;
+
+}
+
+.category1:hover {
+    background-color: gainsboro;
+    background-image: none;
+
+    .categorytext {
+        display: block;
+
+    }
+}
+
+.category2:hover {
+    background-color: gainsboro;
+    background-image: none;
+
+    .categorytext {
+        display: block;
+    }
+}
+
+.category3:hover {
+    background-color: gainsboro;
+    background-image: none;
+
+    .categorytext {
+        display: block;
+    }
+}
